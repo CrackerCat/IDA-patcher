@@ -137,7 +137,7 @@ display_license( struct license *lic )
     lic_type = "floating";
   printf( "Type: %d (%s)\n", lic->type, lic_type );
   printf( "Seats: %d\n", lic->seats );
-  printf( "Name: %s\n", lic->name );
+  
   printf( "LicID: " );
   for( l = 0; l < 6; l++ )
     printf( "%02x", lic->id[l] );
